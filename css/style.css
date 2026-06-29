@@ -842,7 +842,7 @@ blockquote{
 
 
 .head-journey{
-  font-size: 4.5rem;
+  font-size: clamp(2rem, 8vw, 4.5rem);
 }
 .head-p-journey{
   font-size: 1.5rem;
@@ -1048,8 +1048,13 @@ textarea{
   color: var(--color-primary);
 }
 
-
-
+/* زياده اكيد بسبب مشكله ال overflow */
+.head-journey,
+.head-question,
+.head-tecnology,
+.our-services h2 {
+  font-size: clamp(2rem, 8vw, 4.5rem);
+}
 
 @media (max-width: 1199.98px){
 
