@@ -10,7 +10,7 @@
 }
 body{
   font-family: var(--font-family);
-  overflow: hidden;
+  
 }
 
 :root {
@@ -1091,5 +1091,42 @@ textarea{
         overflow-y: auto;
         overflow-x: hidden;
     }
+
+}
+
+
+@media (max-width: 768px) {
+
+  .head-journey,
+  .head-question,
+  .head-tecnology,
+  .our-services h2{
+      font-size: 2.2rem;
+  }
+
+}
+
+@media (max-width:768px){
+
+  .hero-section{
+      padding-top: 140px;
+      min-height: auto;
+  }
+
+}
+@media (max-width:768px){
+
+  .absolute1-hero{
+      right:10px;
+      top:10px;
+      padding:20px;
+  }
+
+  .absolute2-hero{
+      left:10px;
+      bottom:10px;
+      top:auto;
+      padding:18px;
+  }
 
 }
